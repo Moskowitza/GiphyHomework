@@ -1,0 +1,28 @@
+button,
+div,
+form,
+input {
+  margin: 10px;
+}
+
+.gif{
+  width: 200px;
+  height: 200px;
+}
+#topic-form{
+  background-color: lightgray;
+  margin: 10px;
+}
+#buttons-view{
+  width:auto;
+  background-color: lightblue;
+  margin: 10px;
+
+}
+.topicDiv{
+  margin: 10px;}
+.thumbnail{
+  width: 200px;
+  background-color:white;
+  float: left;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Powered By GIPHY</title>
+  <!-- Some basic styling -->
+ <link rel="stylesheet" href="assets/style/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- everything going into a container Div -->
+  <div class="container">
+    <h1>Gif Search</h1>
+    <!-- Grab 10 static, non-animated gif images place them here on the page. they will be animated afer-->
+
+    <!-- Rendered Buttons will get Dumped Here  -->
+    <div id="buttons-view"></div>
+    <!-- Here is the FORM that gets new gif names, called topic-input -->
+    <div id="formDiv">
+      <form id="topic-form">
+        <label for="topic-input">Add a topic</label>
+        <input type="text" id="topic-input">
+        <br>
+        <input id="add-topic" class="btn-outline-primary" type="submit" value="Add a topiCat">
+      </form>
+      <button class="clear" class="btn-outline-primary">Clear the Gifs</button>
+
+      <div id="topics-view"></div>
+    </div>
+    <!-- Call in jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Here is My Script -->
+    <script src="GiphyApp.js"></script>
+  </div>
+</body>
+</html>
